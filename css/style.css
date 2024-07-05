@@ -1,0 +1,16 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    cursor: zoom-in;
+
+}
+
+#zoom\ image {
+    transition: transform 0.3s ease; /* Smooth zoom effect */
+    width: 100%;
+}
+
+.magnify {
+    cursor: zoom-out;
+    transform: scale(2); /* Magnify the image */
+}
